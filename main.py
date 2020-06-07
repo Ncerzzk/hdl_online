@@ -13,7 +13,7 @@ def get_random_name():
 
 def remove_tmp_file(filename):
     filename=filename.split(".")[0]
-    exts=[".v",".ys",".dot",".jpeg"]
+    exts=[".v",".ys",".dot",".jpeg",".log"]
     for i in exts:
         try:
             os.remove(TEMP_PATH+filename+i)
@@ -37,16 +37,20 @@ def produce_rtl_image(filename,language,template,top_name="top_module"):
     with open(TEMP_PATH+newscript_filename,"w+") as f:
         f.write(newscript_text)
     
-    if(os.system("yosys "+TEMP_PATH+newscript_filename)!=0):
-        #remove_tmp_file(filename_without_ext)
+    logfile=TEMP_PATH+filename_without_ext+".log"
+    if(os.system("yosys "+TEMP_PATH+newscript_filename+ ">" + logfile)!=0):
+        remove_tmp_file(filename_without_ext)
         return None
 
+    log=""
+    with open(logfile,"r") as f:
+        log=f.read()
 
     jpgfilename=TEMP_PATH+filename_without_ext+".jpeg"
     b64result=""
     with open(jpgfilename,"rb") as f:
         b64result=base64.b64encode(f.read())
-    return b64result
+    return (b64result,log)
     
 
 def read_ys_template():
@@ -78,15 +82,16 @@ class GetHDLHandler(tornado.web.RequestHandler):
         
         with open(TEMP_PATH+filename,"w+") as f:
             f.write(text)
-        imgb64_code=produce_rtl_image(filename,language,template,top_module)
-        self.render("image.html",img_b64=imgb64_code)
-        #remove_tmp_file(filename)
+        (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+        self.render("image.html",img_b64=imgb64_code,logtext=log)
+        remove_tmp_file(filename)
 
         
 
 if __name__=="__main__":
     app=tornado.web.Application([(r"/",MainHandler),(r"/hdl",GetHDLHandler)])
     read_ys_template()
+
     app.listen(8888)
     tornado.ioloop.IOLoop.current().start()
 
