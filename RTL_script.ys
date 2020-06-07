@@ -1,0 +1,3 @@
+read  -LANGUAGE FILENAME 
+synth -top TOPMODULE_NAME -run begin:fine -nofsm -noalumacc -nordff -noshare
+show -format jpeg -prefix FILE_WITHOUT_EXT  TOPMODULE_NAME

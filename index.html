@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>HDL在线综合工具</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <div class="container">
+        <div class="col-md-10">
+            <div class="span8">
+                <form action="hdl" method="POST">
+                    <div class="form-group">
+                      <label for="HDLCODE">HDL Code</label>
+                      <select class="form-control" name="language">
+                        <option value="verilog">Verilog/System Verilog</option>
+                        <option value="vhdl">VHDL</option>
+                      </select>
+                      <label for="exampleInputEmail1">顶层模块名称</label>
+                      <input name="top_module_name"  class="form-control" placeholder="" value="top_module">
+                      <label for="HDLCODE">综合层级</label>
+                      <select class="form-control" name="level">
+                        <option value="rtl">RTL</option>
+                        <option value="gate">GATE</option>
+                      </select>
+                      <textarea rows="30" class="form-control" name="hdl_text" placeholder="">
+                        
+                        module top_module(clk, rst, en, count);
+
+                        input clk, rst, en;
+                        output reg [3:0] count;
+                        
+                        always @(posedge clk)
+                           if (rst)
+                              count <= 4'd0;
+                           else if (en)
+                              count <= count + 4'd1;
+                     
+                        endmodule
+                        
+                      </textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+            </div>
+            <footer >
+        
+              <div class="wrapper">
+                  <a href="https://github.com/Ncerzzk">github</a>
+              </div>
+          
+              </div>
+        
+            </footer>
+        </div>
+    
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>

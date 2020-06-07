@@ -1,0 +1,3 @@
+read  -sv test2.v 
+synth -top top_module -run begin:fine -nofsm -noalumacc -nordff -noshare
+show -format jpeg -prefix outssss  top_module

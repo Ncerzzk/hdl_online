@@ -1,0 +1,3 @@
+read  -sv tmp/17dd2394266b43e4a5f1521c96186cf3.v 
+synth -top top_module -run begin:fine -nofsm -noalumacc -nordff -noshare
+show -format jpeg -prefix tmp/17dd2394266b43e4a5f1521c96186cf3  top_module
