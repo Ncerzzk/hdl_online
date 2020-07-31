@@ -86,10 +86,10 @@ class GetHDLHandler(tornado.web.RequestHandler):
         self.render("image.html",img_b64=imgb64_code,logtext=log)
         remove_tmp_file(filename)
 
-        
-
 if __name__=="__main__":
-    app=tornado.web.Application([(r"/",MainHandler),(r"/hdl",GetHDLHandler)])
+    app=tornado.web.Application([(r"/",MainHandler),(r"/hdl",GetHDLHandler)],
+    static_path=os.path.join(os.path.dirname(__file__), "statics"),)
+    
     read_ys_template()
 
     app.listen(8888)
