@@ -1,0 +1,237 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Wolf <claire@symbioticeda.com>          |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.9+2406 (git sha1 534be66, gcc 7.5.0-3ubuntu1~18.04 -fPIC -Os)
+
+
+-- Executing script file `tmp/0f924cb178794f50a898c44b85219e54.ys' --
+
+1. Executing Verilog-2005 frontend: tmp/0f924cb178794f50a898c44b85219e54.v
+Parsing SystemVerilog input from `tmp/0f924cb178794f50a898c44b85219e54.v' to AST representation.
+Storing AST representation for module `$abstract\top_module'.
+Successfully finished Verilog frontend.
+
+2. Executing SYNTH pass.
+
+2.1. Executing HIERARCHY pass (managing design hierarchy).
+
+2.2. Executing AST frontend in derive mode using pre-parsed AST for module `\top_module'.
+Generating RTLIL representation for module `\top_module'.
+
+2.2.1. Analyzing design hierarchy..
+Top module:  \top_module
+
+2.2.2. Analyzing design hierarchy..
+Top module:  \top_module
+Removing unused module `$abstract\top_module'.
+Removed 1 unused modules.
+
+2.3. Executing PROC pass (convert processes to netlists).
+
+2.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+2.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+2.3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 0 assignments to connections.
+
+2.3.4. Executing PROC_INIT pass (extract init attributes).
+
+2.3.5. Executing PROC_ARST pass (detect async resets in processes).
+
+2.3.6. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+2.3.7. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+2.3.8. Executing PROC_DFF pass (convert process syncs to FFs).
+
+2.3.9. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+2.4. Executing FLATTEN pass (flatten design).
+No more expansions possible.
+
+2.5. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_module.
+
+2.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_module..
+Removed 1 unused cells and 4 unused wires.
+<suppressed ~5 debug messages>
+
+2.7. Executing CHECK pass (checking for obvious problems).
+checking module top_module..
+Warning: Wire top_module.\count [3] is used but has no driver.
+Warning: Wire top_module.\count [2] is used but has no driver.
+Warning: Wire top_module.\count [1] is used but has no driver.
+Warning: Wire top_module.\count [0] is used but has no driver.
+found and reported 4 problems.
+
+2.8. Executing OPT pass (performing simple optimizations).
+
+2.8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_module.
+
+2.8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_module'.
+Removed a total of 0 cells.
+
+2.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \top_module..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+2.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \top_module.
+Performed a total of 0 changes.
+
+2.8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_module'.
+Removed a total of 0 cells.
+
+2.8.6. Executing OPT_RMDFF pass (remove dff with constant values).
+
+2.8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_module..
+
+2.8.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_module.
+
+2.8.9. Finished OPT passes. (There is nothing left to do.)
+
+2.9. Executing WREDUCE pass (reducing word size of cells).
+
+2.10. Executing PEEPOPT pass (run peephole optimizers).
+
+2.11. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_module..
+
+2.12. Executing TECHMAP pass (map to technology primitives).
+
+2.12.1. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/cmp2lut.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/cmp2lut.v' to AST representation.
+Generating RTLIL representation for module `\_90_lut_cmp_'.
+Successfully finished Verilog frontend.
+
+2.12.2. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/cmp2lcu.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/cmp2lcu.v' to AST representation.
+Generating RTLIL representation for module `\_80_lcu_cmp_'.
+Generating RTLIL representation for module `\$__CMP2LCU'.
+Successfully finished Verilog frontend.
+
+2.12.3. Continuing TECHMAP pass.
+No more expansions possible.
+
+2.13. Executing SHARE pass (SAT-based resource sharing).
+
+2.14. Executing OPT pass (performing simple optimizations).
+
+2.14.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_module.
+
+2.14.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_module'.
+Removed a total of 0 cells.
+
+2.14.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \top_module..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+2.14.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \top_module.
+Performed a total of 0 changes.
+
+2.14.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_module'.
+Removed a total of 0 cells.
+
+2.14.6. Executing OPT_RMDFF pass (remove dff with constant values).
+
+2.14.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_module..
+
+2.14.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_module.
+
+2.14.9. Finished OPT passes. (There is nothing left to do.)
+
+2.15. Executing FSM pass (extract and optimize FSM).
+
+2.15.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+2.15.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+2.15.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+2.15.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_module..
+
+2.15.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+2.15.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+2.15.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+2.15.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+2.16. Executing OPT pass (performing simple optimizations).
+
+2.16.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_module.
+
+2.16.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_module'.
+Removed a total of 0 cells.
+
+2.16.3. Executing OPT_RMDFF pass (remove dff with constant values).
+
+2.16.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_module..
+
+2.16.5. Finished fast OPT passes.
+
+2.17. Executing MEMORY pass.
+
+2.17.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+2.17.2. Executing MEMORY_DFF pass (merging $dff cells to $memrd and $memwr).
+
+2.17.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_module..
+
+2.17.4. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+2.17.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_module..
+
+2.17.6. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+2.18. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_module..
+
+3. Generating Graphviz representation of design.

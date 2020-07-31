@@ -1,0 +1,1390 @@
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.73ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.61ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.63ms
+WARNING:tornado.access:404 HEAD http://112.124.42.80:63435/ (60.191.125.35) 0.52ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.53ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.75ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.52ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.67ms
+WARNING:tornado.access:405 CONNECT ip.ws.126.net:443 (222.186.61.115) 0.63ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 1.44ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.68ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.65ms
+ERROR: Module `top_module' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 245.10ms
+ERROR: Module `top_module' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 22.47ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.59ms
+tmp/3d26f4900ba14dd89f2651e7ae6cbbcb.v:8: ERROR: Unimplemented compiler directive or undefined macro `DATA_WIDTH.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 227.66ms
+tmp/ee522e644eb34574b7408d89cd9d4f1b.v:8: ERROR: Unimplemented compiler directive or undefined macro `DATA_WIDTH.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 21.24ms
+tmp/663fb08efa494c918d0df201030a7d3c.v:0: ERROR: Can not open file `r.txt` for \$readmemh.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 44.29ms
+tmp/36f0ac301b2a4bbabcd07c0827a16e2e.v:0: ERROR: Can not open file `r.txt` for \$readmemh.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 37.08ms
+ERROR: Can't open include file `_parameter.v'!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 22.78ms
+tmp/03f857b855da47a6b7b016bb00b512df.v:6: ERROR: Unimplemented compiler directive or undefined macro `DATA_WIDTH.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 20.74ms
+tmp/93cac2688e5a4f52b23e8544ddcb4857.v:6: ERROR: Unimplemented compiler directive or undefined macro `DATA_WIDTH.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 20.32ms
+tmp/929bcb618cce4cd2916e9056fc8f42f2.v:4: ERROR: Unimplemented compiler directive or undefined macro `DATA_WIDTH.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 22.60ms
+tmp/922349a145694b37a1c9fbae7b897786.v:4: ERROR: Unimplemented compiler directive or undefined macro `DATA_WIDTH.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 18.40ms
+tmp/709bada3b440439194d52c5787620d79.v:31: ERROR: Unimplemented compiler directive or undefined macro `TOTAL_ADDR.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 21.72ms
+tmp/e91063730e5c48ddae141df662930835.v:0: ERROR: Can not open file `nprime0.txt` for \$readmemh.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 28.38ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/031995295655447ab5689b5f4d906625.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 17.17ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/308eff4613b346b996a8b5fb68a0cd0e.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 16.48ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.69ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.68ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.67ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.66ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.78ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.76ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/3e455d9d9e2e464aa05b71a214ddb95e.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 37.95ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/1e076adea0074e739aaf6788ec0ccef5.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 17.73ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/025a09514ba946239402f6b532cd5ea9.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 17.14ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/cf400d5f3b6b4326a7870f9bc81ea78a.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 19.02ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/4bc3850523f6428989215995eea605d0.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 16.95ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/9509987c4729453085bc202fce6bf45c.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 19.69ms
+WARNING:tornado.access:405 CONNECT httpbin.org:443 (103.78.242.202) 0.59ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.72ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.50ms
+ERROR: Module `top_module' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 15.76ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.52ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.55ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.69ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.56ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.49ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.50ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.61ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.72ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.54ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.57ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.48ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.47ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.60ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.49ms
+WARNING:tornado.access:404 GET /favicon.ico (71.6.146.186) 0.50ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.59ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.52ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/0e4f2352e3d54331adf0ed6beca0c80b.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 8.40ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.82ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.66ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/d272c3257b4f43f8b9bd05f89da3938d.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 8.30ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.81ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.53ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.48ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.86ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.52ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.64ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/825442b616d14b36b763c92b6be4001f.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 9.15ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.75ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.51ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/36a6dbb8adc74fec853c201a4a525c7c.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 9.71ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.84ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.51ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/ddf76414f9324c018f47df90881f766d.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 7.47ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.79ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.46ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/5315d9a76e7e4262a67cba4432c77da0.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 7.98ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.90ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.49ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/8297c555f29440ec8023c58c41b2e00c.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 7.88ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.87ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.47ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/35bb440693254e99a693f8052a7904be.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 9.55ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.79ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.54ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.58ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/a9e40ff37f21475aa9e3fcb3567aa7cc.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 9.24ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.76ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.47ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/d5d3963c1c6f408ab85d22e3d38d8694.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 7.89ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.80ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.47ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.53ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.51ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.69ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.63ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.55ms
+WARNING:tornado.access:404 GET /favicon.ico (80.82.77.139) 0.55ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.61ms
+WARNING:tornado.access:404 GET http://175.24.0.33:8888/ (182.254.52.17) 0.54ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.67ms
+WARNING:tornado.access:405 OPTIONS / (104.152.52.71) 0.62ms
+WARNING:tornado.access:404 GET /nice%20ports%2C/Tri%6Eity.txt%2ebak (104.152.52.71) 0.52ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.51ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.74ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.57ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.59ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.49ms
+ERROR: Module `top_module' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 24.29ms
+ERROR: Module `top_module' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 7.87ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.54ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.49ms
+tmp/6a3f8580c9574deea839300d4fc8090d.v:2: ERROR: Module port `\set' is not declared in module header.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 8.47ms
+tmp/5b1b6bd3f5fd468cb9ca1d34ff948f3a.v:2: ERROR: Module port `\set' is not declared in module header.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 8.06ms
+tmp/0f20ac50c2474796aa17166c6a0ec3dc.v:2: ERROR: Module port `\set' is not declared in module header.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 7.25ms
+tmp/01a2b203923f4dce8843964bb321a502.v:2: ERROR: Module port `\set' is not declared in module header.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 9.06ms
+tmp/135d16cc8d7a4e2a971d9e2ca44a9e36.v:2: ERROR: Module port `\set' is not declared in module header.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 8.57ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.56ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.54ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.59ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.55ms
+WARNING:tornado.access:404 GET http://175.24.0.33:8888/ (14.18.182.223) 0.54ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.48ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.63ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.48ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.50ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.47ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.54ms
+WARNING:tornado.access:404 GET http://175.24.0.33:8888/ (61.241.50.63) 0.69ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.55ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.67ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.50ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.48ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.53ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.54ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.86ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.50ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.58ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.61ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.47ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.55ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.57ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.58ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 1.04ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.53ms
+ERROR: Nothing there to show.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 33.77ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.60ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.62ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.58ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.51ms
+WARNING:tornado.access:404 GET http://175.24.0.33:8888/ (58.247.212.239) 0.58ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.51ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.51ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.47ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.66ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.63ms
+WARNING:tornado.access:404 GET /robots.txt (127.0.0.1) 0.51ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.53ms
+WARNING:tornado.access:404 GET /robots.txt (127.0.0.1) 0.65ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.48ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.48ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.51ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.54ms
+tmp/3526c524e2814e3da48659b500964fc9.v:59: ERROR: syntax error, unexpected TOK_ASSIGN
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 12.40ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.48ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.49ms
+ERROR: Nothing there to show.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 18.31ms
+ERROR: Nothing there to show.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 19.88ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.72ms
+WARNING:tornado.access:404 GET http://175.24.0.33:8888/ (182.254.52.17) 0.63ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.55ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.52ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.48ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.83ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.73ms
+WARNING:tornado.access:404 GET http://175.24.0.33:8888/ (58.247.212.239) 0.69ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.72ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.47ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.49ms
+WARNING:tornado.access:404 GET /favicon.ico (138.197.174.39) 0.81ms
+WARNING:tornado.access:404 GET /favicon.ico (165.227.32.20) 0.56ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.52ms
+ERROR: Module `\InstRom' referenced in module `\SOC' in cell `\rom' is not part of the design.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 11.32ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.57ms
+WARNING:tornado.access:404 GET http://175.24.0.33:8888/ (182.254.52.17) 0.58ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.58ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.57ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.52ms
+ERROR: Module `\ALU' referenced in module `\Top_R_CPU' in cell `\My_ALU' is not part of the design.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 12.12ms
+ERROR: Module `\ALU' referenced in module `\Top_R_CPU' in cell `\My_ALU' is not part of the design.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 10.92ms
+tmp/ae97642496804248b5244c81b095f087.v:112: ERROR: syntax error, unexpected TOK_ASSIGN
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 10.15ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.51ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.50ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.64ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.51ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.50ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.70ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.87ms
+WARNING:tornado.access:404 GET http://175.24.0.33:8888/ (182.254.52.17) 0.50ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.55ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.66ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.54ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.64ms
+WARNING:tornado.access:404 GET http://175.24.0.33:8888/ (14.18.182.223) 0.68ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.54ms
+WARNING:tornado.access:405 CONNECT ip.ws.126.net:443 (222.186.19.210) 0.58ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.50ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.71ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.50ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.59ms
+ERROR: Module `top_module' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 11.09ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.62ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.65ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.55ms
+ERROR: Module `top_module' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 9.95ms
+tmp/92d5aaa1caf748d7b30836bc9e94075d.v:1: ERROR: syntax error, unexpected TOK_ID
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 10.74ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.70ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.50ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.57ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.65ms
+tmp/ac132a9454834c81bd2101e99ea31004.v:5: ERROR: syntax error, unexpected $end
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 8.73ms
+tmp/94ed619427824a05b856f364f0db4701.v:5: ERROR: syntax error, unexpected $end
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 8.04ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.56ms
+tmp/80bd73be26694c93a5b9f3b301ec5368.v:11: ERROR: syntax error, unexpected $end
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 9.16ms
+WARNING:tornado.access:405 CONNECT httpbin.org:443 (103.78.242.202) 0.54ms
+WARNING:tornado.access:405 CONNECT httpbin.org:443 (103.78.242.202) 0.52ms
+WARNING:tornado.access:404 HEAD http://123.125.114.144/ (222.82.54.194) 0.53ms
+WARNING:tornado.access:404 GET /favicon.ico (198.20.70.114) 0.54ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.50ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.55ms
+ERROR: Module `top_module' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 9.06ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.62ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.65ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.66ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.79ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.51ms
+WARNING:tornado.access:404 GET http://175.24.0.33:8888/ (182.254.52.17) 0.50ms
+WARNING:tornado.access:404 POST /sdk (202.61.87.174) 0.72ms
+WARNING:tornado.access:404 GET /nmaplowercheck1593504753 (202.61.87.174) 0.35ms
+WARNING:tornado.access:404 GET /HNAP1 (202.61.87.174) 0.60ms
+WARNING:tornado.access:404 GET /evox/about (202.61.87.174) 0.70ms
+WARNING:tornado.access:405 POST / (42.99.117.139) 0.63ms
+WARNING:tornado.access:404 POST /base/post.php (42.99.117.139) 0.74ms
+WARNING:tornado.access:405 POST / (42.99.117.32) 0.62ms
+WARNING:tornado.access:405 POST / (42.99.117.9) 0.73ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.54ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.62ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.49ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.52ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.88ms
+WARNING:tornado.access:404 GET /robots.txt (127.0.0.1) 0.52ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.60ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.52ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.52ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.50ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.60ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.47ms
+WARNING:tornado.access:404 HEAD http://112.124.42.80:63435/ (60.191.125.35) 0.48ms
+tmp/63f6b13fcdfb4f3eb195d3bfb0288219.v:57: ERROR: Unimplemented compiler directive or undefined macro `OpEnum_binary_sequential_LOGIC_1.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 10.04ms
+tmp/330d7730282749ab96c286c38f13448f.v:4: ERROR: syntax error, unexpected TOK_IF
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 92.51ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.50ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.61ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.62ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.47ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.62ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.50ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.58ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.53ms
+ERROR: Module `top_module' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 8.89ms
+ERROR: Module `top_module' not found!
+wow,the file is not exist! filename:6ae2bc23e13a490c8ad8bba6977a678a.dot
+wow,the file is not exist! filename:6ae2bc23e13a490c8ad8bba6977a678a.jpeg
+wow,the file is not exist! filename:7914d161629d484eb87bc2e03a129af5.dot
+wow,the file is not exist! filename:7914d161629d484eb87bc2e03a129af5.jpeg
+wow,the file is not exist! filename:3d26f4900ba14dd89f2651e7ae6cbbcb.dot
+wow,the file is not exist! filename:3d26f4900ba14dd89f2651e7ae6cbbcb.jpeg
+wow,the file is not exist! filename:ee522e644eb34574b7408d89cd9d4f1b.dot
+wow,the file is not exist! filename:ee522e644eb34574b7408d89cd9d4f1b.jpeg
+wow,the file is not exist! filename:663fb08efa494c918d0df201030a7d3c.dot
+wow,the file is not exist! filename:663fb08efa494c918d0df201030a7d3c.jpeg
+wow,the file is not exist! filename:36f0ac301b2a4bbabcd07c0827a16e2e.dot
+wow,the file is not exist! filename:36f0ac301b2a4bbabcd07c0827a16e2e.jpeg
+wow,the file is not exist! filename:351dac2b246749d0ad48b5b2532e9cd2.dot
+wow,the file is not exist! filename:351dac2b246749d0ad48b5b2532e9cd2.jpeg
+wow,the file is not exist! filename:03f857b855da47a6b7b016bb00b512df.dot
+wow,the file is not exist! filename:03f857b855da47a6b7b016bb00b512df.jpeg
+wow,the file is not exist! filename:93cac2688e5a4f52b23e8544ddcb4857.dot
+wow,the file is not exist! filename:93cac2688e5a4f52b23e8544ddcb4857.jpeg
+wow,the file is not exist! filename:929bcb618cce4cd2916e9056fc8f42f2.dot
+wow,the file is not exist! filename:929bcb618cce4cd2916e9056fc8f42f2.jpeg
+wow,the file is not exist! filename:922349a145694b37a1c9fbae7b897786.dot
+wow,the file is not exist! filename:922349a145694b37a1c9fbae7b897786.jpeg
+wow,the file is not exist! filename:709bada3b440439194d52c5787620d79.dot
+wow,the file is not exist! filename:709bada3b440439194d52c5787620d79.jpeg
+wow,the file is not exist! filename:e91063730e5c48ddae141df662930835.dot
+wow,the file is not exist! filename:e91063730e5c48ddae141df662930835.jpeg
+wow,the file is not exist! filename:031995295655447ab5689b5f4d906625.dot
+wow,the file is not exist! filename:031995295655447ab5689b5f4d906625.jpeg
+wow,the file is not exist! filename:308eff4613b346b996a8b5fb68a0cd0e.dot
+wow,the file is not exist! filename:308eff4613b346b996a8b5fb68a0cd0e.jpeg
+wow,the file is not exist! filename:3e455d9d9e2e464aa05b71a214ddb95e.dot
+wow,the file is not exist! filename:3e455d9d9e2e464aa05b71a214ddb95e.jpeg
+wow,the file is not exist! filename:1e076adea0074e739aaf6788ec0ccef5.dot
+wow,the file is not exist! filename:1e076adea0074e739aaf6788ec0ccef5.jpeg
+wow,the file is not exist! filename:025a09514ba946239402f6b532cd5ea9.dot
+wow,the file is not exist! filename:025a09514ba946239402f6b532cd5ea9.jpeg
+wow,the file is not exist! filename:cf400d5f3b6b4326a7870f9bc81ea78a.dot
+wow,the file is not exist! filename:cf400d5f3b6b4326a7870f9bc81ea78a.jpeg
+wow,the file is not exist! filename:4bc3850523f6428989215995eea605d0.dot
+wow,the file is not exist! filename:4bc3850523f6428989215995eea605d0.jpeg
+wow,the file is not exist! filename:9509987c4729453085bc202fce6bf45c.dot
+wow,the file is not exist! filename:9509987c4729453085bc202fce6bf45c.jpeg
+wow,the file is not exist! filename:4fd3141e15af40aca8c72e8e675d2543.dot
+wow,the file is not exist! filename:4fd3141e15af40aca8c72e8e675d2543.jpeg
+wow,the file is not exist! filename:0e4f2352e3d54331adf0ed6beca0c80b.dot
+wow,the file is not exist! filename:0e4f2352e3d54331adf0ed6beca0c80b.jpeg
+wow,the file is not exist! filename:d272c3257b4f43f8b9bd05f89da3938d.dot
+wow,the file is not exist! filename:d272c3257b4f43f8b9bd05f89da3938d.jpeg
+wow,the file is not exist! filename:825442b616d14b36b763c92b6be4001f.dot
+wow,the file is not exist! filename:825442b616d14b36b763c92b6be4001f.jpeg
+wow,the file is not exist! filename:36a6dbb8adc74fec853c201a4a525c7c.dot
+wow,the file is not exist! filename:36a6dbb8adc74fec853c201a4a525c7c.jpeg
+wow,the file is not exist! filename:ddf76414f9324c018f47df90881f766d.dot
+wow,the file is not exist! filename:ddf76414f9324c018f47df90881f766d.jpeg
+wow,the file is not exist! filename:5315d9a76e7e4262a67cba4432c77da0.dot
+wow,the file is not exist! filename:5315d9a76e7e4262a67cba4432c77da0.jpeg
+wow,the file is not exist! filename:8297c555f29440ec8023c58c41b2e00c.dot
+wow,the file is not exist! filename:8297c555f29440ec8023c58c41b2e00c.jpeg
+wow,the file is not exist! filename:35bb440693254e99a693f8052a7904be.dot
+wow,the file is not exist! filename:35bb440693254e99a693f8052a7904be.jpeg
+wow,the file is not exist! filename:a9e40ff37f21475aa9e3fcb3567aa7cc.dot
+wow,the file is not exist! filename:a9e40ff37f21475aa9e3fcb3567aa7cc.jpeg
+wow,the file is not exist! filename:d5d3963c1c6f408ab85d22e3d38d8694.dot
+wow,the file is not exist! filename:d5d3963c1c6f408ab85d22e3d38d8694.jpeg
+wow,the file is not exist! filename:337594130655493cb2a4a8e8f6710f9c.dot
+wow,the file is not exist! filename:337594130655493cb2a4a8e8f6710f9c.jpeg
+wow,the file is not exist! filename:9cbfafb7e0e34bbcb7827b2c10c3814f.dot
+wow,the file is not exist! filename:9cbfafb7e0e34bbcb7827b2c10c3814f.jpeg
+wow,the file is not exist! filename:6a3f8580c9574deea839300d4fc8090d.dot
+wow,the file is not exist! filename:6a3f8580c9574deea839300d4fc8090d.jpeg
+wow,the file is not exist! filename:5b1b6bd3f5fd468cb9ca1d34ff948f3a.dot
+wow,the file is not exist! filename:5b1b6bd3f5fd468cb9ca1d34ff948f3a.jpeg
+wow,the file is not exist! filename:0f20ac50c2474796aa17166c6a0ec3dc.dot
+wow,the file is not exist! filename:0f20ac50c2474796aa17166c6a0ec3dc.jpeg
+wow,the file is not exist! filename:01a2b203923f4dce8843964bb321a502.dot
+wow,the file is not exist! filename:01a2b203923f4dce8843964bb321a502.jpeg
+wow,the file is not exist! filename:135d16cc8d7a4e2a971d9e2ca44a9e36.dot
+wow,the file is not exist! filename:135d16cc8d7a4e2a971d9e2ca44a9e36.jpeg
+wow,the file is not exist! filename:9493db56bbaf4531a651ea3a186c38d1.jpeg
+wow,the file is not exist! filename:3526c524e2814e3da48659b500964fc9.dot
+wow,the file is not exist! filename:3526c524e2814e3da48659b500964fc9.jpeg
+wow,the file is not exist! filename:77f6de1a3c4f48ccbfaa701f30152d27.jpeg
+wow,the file is not exist! filename:d421c9833e344813bb56398f1b45002e.jpeg
+wow,the file is not exist! filename:9aaed28f6c2f46e79b548b21d06d64da.dot
+wow,the file is not exist! filename:9aaed28f6c2f46e79b548b21d06d64da.jpeg
+wow,the file is not exist! filename:8da55d926aad4c7c82fc57785253196c.dot
+wow,the file is not exist! filename:8da55d926aad4c7c82fc57785253196c.jpeg
+wow,the file is not exist! filename:eea7c510fe6d4e32b27d7caba3ddde34.dot
+wow,the file is not exist! filename:eea7c510fe6d4e32b27d7caba3ddde34.jpeg
+wow,the file is not exist! filename:ae97642496804248b5244c81b095f087.dot
+wow,the file is not exist! filename:ae97642496804248b5244c81b095f087.jpeg
+wow,the file is not exist! filename:2c74980a0a1d4db6aa7bce22de997be8.dot
+wow,the file is not exist! filename:2c74980a0a1d4db6aa7bce22de997be8.jpeg
+wow,the file is not exist! filename:7702549b15ba46f2ad2aecc9fabca6e1.dot
+wow,the file is not exist! filename:7702549b15ba46f2ad2aecc9fabca6e1.jpeg
+wow,the file is not exist! filename:92d5aaa1caf748d7b30836bc9e94075d.dot
+wow,the file is not exist! filename:92d5aaa1caf748d7b30836bc9e94075d.jpeg
+wow,the file is not exist! filename:ac132a9454834c81bd2101e99ea31004.dot
+wow,the file is not exist! filename:ac132a9454834c81bd2101e99ea31004.jpeg
+wow,the file is not exist! filename:94ed619427824a05b856f364f0db4701.dot
+wow,the file is not exist! filename:94ed619427824a05b856f364f0db4701.jpeg
+wow,the file is not exist! filename:80bd73be26694c93a5b9f3b301ec5368.dot
+wow,the file is not exist! filename:80bd73be26694c93a5b9f3b301ec5368.jpeg
+wow,the file is not exist! filename:cd0c918fe0f643fbb06f36bd8b2cba0e.dot
+wow,the file is not exist! filename:cd0c918fe0f643fbb06f36bd8b2cba0e.jpeg
+wow,the file is not exist! filename:63f6b13fcdfb4f3eb195d3bfb0288219.dot
+wow,the file is not exist! filename:63f6b13fcdfb4f3eb195d3bfb0288219.jpeg
+wow,the file is not exist! filename:330d7730282749ab96c286c38f13448f.dot
+wow,the file is not exist! filename:330d7730282749ab96c286c38f13448f.jpeg
+wow,the file is not exist! filename:40b9ebdfc1304c0c9b192a45e16b8908.dot
+wow,the file is not exist! filename:40b9ebdfc1304c0c9b192a45e16b8908.jpeg
+wow,the file is not exist! filename:e5e279ada31d4365b9ac559cf0a72667.dotERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 7.93ms
+ERROR: Module `top_module' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 7.93ms
+ERROR: Module `top_module' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 9.71ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.57ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.51ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 1.12ms
+dot: graph is too large for cairo-renderer bitmaps. Scaling by 0.27679 to fit
+dot: graph is too large for cairo-renderer bitmaps. Scaling by 0.27679 to fit
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 355.14ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.56ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.52ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.48ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.69ms
+WARNING:tornado.access:404 GET http://175.24.0.33:8888/ (59.36.132.240) 0.53ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.65ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.52ms
+WARNING:tornado.access:404 GET http://175.24.0.33:8888/ (61.241.50.63) 0.56ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.62ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.58ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.55ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.63ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.50ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.59ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.60ms
+ERROR: Module `top_module' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 18.09ms
+tmp/1cfa66a359944b308c7d5eb057075e60.v:15: ERROR: syntax error, unexpected '=', expecting TOK_ID or ATTR_BEGIN or '{'
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 10.71ms
+tmp/e723bac933e6451a83ea85191131d798.v:15: ERROR: syntax error, unexpected '=', expecting TOK_ID or ATTR_BEGIN or '{'
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 11.76ms
+tmp/a1778a6f425c428facfbc4277a0e062a.v:15: ERROR: syntax error, unexpected '=', expecting TOK_ID or ATTR_BEGIN or '{'
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 12.16ms
+tmp/8a93618dafa341708a9921acef00afe1.v:21: ERROR: syntax error, unexpected ';'
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 12.80ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.52ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.50ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.56ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.65ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.50ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.49ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.58ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.50ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.51ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.48ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.52ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.64ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.51ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.61ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.54ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.50ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/82a9de37fd9846d9a28ec6f032af687b.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 11.34ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/b739853dc8de400b9ef4954e9dfe477a.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 15.51ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/80e24cbb415a4475b4591a92954e0524.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 10.33ms
+tmp/9fd54773d74142bc982db061c2e6abf8.v:8: ERROR: syntax error, unexpected TOK_ALWAYS, expecting ',' or '=' or ';' or '['
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 11.43ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.57ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 7.78ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.66ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.56ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.48ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.51ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.64ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.59ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.52ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.48ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.50ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.50ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.62ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.55ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.54ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.49ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.52ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.87ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.83ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.54ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.53ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.51ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.59ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.55ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.88ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.86ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.58ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.65ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.56ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.49ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.59ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.57ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.90ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.49ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.64ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.59ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.54ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.96ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.50ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.50ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.72ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.52ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.49ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.54ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.62ms
+WARNING:tornado.access:404 GET http://175.24.0.33:8888/ (182.254.52.17) 0.51ms
+WARNING:tornado.access:405 CONNECT ext.baidu.com:443 (143.92.32.107) 0.56ms
+WARNING:tornado.access:405 CONNECT ext.baidu.com:443 (143.92.32.106) 0.59ms
+WARNING:tornado.access:405 CONNECT ext.baidu.com:443 (143.92.32.106) 0.59ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.50ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.58ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.47ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.98ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.50ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.53ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.55ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.51ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.53ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/e4ce541c8cc943a09bb0e3443683a8ad.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 10.05ms
+WARNING:tornado.access:405 GET /hdl (127.0.0.1) 0.59ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.60ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.65ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.66ms
+ERROR: Module `top_module' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 13.27ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.52ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.58ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.55ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.78ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.52ms
+WARNING:tornado.access:405 CONNECT ext.baidu.com:443 (143.92.32.106) 0.53ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.53ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.49ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.73ms
+tmp/955d87b4769840bda37353eb8eeb4df5.v:16: ERROR: syntax error, unexpected ','
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 10.13ms
+tmp/15c943d73a3740239397c029ac542a50.v:16: ERROR: syntax error, unexpected ','
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 7.96ms
+tmp/c762aa98648d4fa686ad7c5db84056af.v:0: ERROR: System task `$finish' executed.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 7.82ms
+ERROR: Module `non_block' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 9.32ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.66ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.58ms
+ERROR: Module `\line3x3' referenced in module `\gaussian_filter_3x3' in cell `\line3x3_inst' is not part of the design.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 14.04ms
+ERROR: Module `\line3x3' referenced in module `\gaussian_filter_3x3' in cell `\line3x3_inst' is not part of the design.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 10.99ms
+ERROR: Module `\line3x3' referenced in module `\gaussian_filter_3x3' in cell `\line3x3_inst' is not part of the design.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 12.19ms
+ERROR: Module `\line3x3' referenced in module `\gaussian_filter_3x3' in cell `\line3x3_inst' is not part of the design.
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 15.45ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.79ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.48ms
+WARNING:tornado.access:405 CONNECT ext.baidu.com:443 (143.92.32.106) 0.58ms
+WARNING:tornado.access:405 CONNECT ext.baidu.com:443 (143.92.32.106) 0.55ms
+WARNING:tornado.access:404 HEAD http://123.125.114.144/ (119.39.46.247) 0.51ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.54ms
+WARNING:tornado.access:405 CONNECT ext.baidu.com:443 (143.92.32.86) 0.59ms
+WARNING:tornado.access:405 CONNECT ext.baidu.com:443 (143.92.32.86) 0.58ms
+WARNING:tornado.access:404 GET http://example.com/ (185.39.11.105) 0.57ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.62ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.53ms
+WARNING:tornado.access:404 GET /robots.txt (127.0.0.1) 0.46ms
+WARNING:tornado.access:405 CONNECT ext.baidu.com:443 (143.92.32.86) 0.57ms
+WARNING:tornado.access:405 CONNECT ext.baidu.com:443 (143.92.32.86) 0.53ms
+WARNING:tornado.access:404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 0.64ms
+WARNING:tornado.access:404 HEAD http://123.125.114.144/ (117.14.144.207) 0.49ms
+WARNING:tornado.access:405 CONNECT ext.baidu.com:443 (143.92.32.86) 0.87ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.67ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.51ms
+WARNING:tornado.access:405 CONNECT ext.baidu.com:443 (143.92.32.106) 0.51ms
+WARNING:tornado.access:405 CONNECT ext.baidu.com:443 (143.92.32.106) 0.59ms
+WARNING:tornado.access:404 HEAD http://123.125.114.144/ (219.140.118.74) 0.62ms
+WARNING:tornado.access:404 GET /robots.txt (127.0.0.1) 0.65ms
+WARNING:tornado.access:405 CONNECT ext.baidu.com:443 (143.92.32.86) 0.54ms
+WARNING:tornado.access:405 CONNECT ext.baidu.com:443 (143.92.32.86) 0.50ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.54ms
+WARNING:tornado.access:405 CONNECT ext.baidu.com:443 (143.92.32.86) 0.50ms
+WARNING:tornado.access:405 CONNECT ext.baidu.com:443 (143.92.32.86) 0.72ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.50ms
+ERROR: Module `top_module' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 12.12ms
+ERROR: Module `top_module' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 8.16ms
+ERROR: Module `top_module' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 8.23ms
+ERROR: Module `top_module' not found!
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 9.41ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/ce4d3a1371a1437f8c0a29d309d96e03.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 7.68ms
+ERROR: Command syntax error: This version of Yosys is built without Verific support.
+
+> read -vhdl tmp/409131cdec694fb58eaa7df2caf90587.v
+>      ^
+ERROR:tornado.application:Uncaught exception POST /hdl (127.0.0.1)
+HTTPServerRequest(protocol='http', host='hdl.huangzzk.info', method='POST', uri='/hdl', version='HTTP/1.0', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "main.py", line 85, in post
+    (imgb64_code,log)=produce_rtl_image(filename,language,template,top_module)
+TypeError: 'NoneType' object is not iterable
+ERROR:tornado.access:500 POST /hdl (127.0.0.1) 14.14ms
+WARNING:tornado.access:404 GET http://175.24.0.33:8888/ (182.254.52.17) 0.59ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.51ms
